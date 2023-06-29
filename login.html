@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ログイン画面</title>
+        <link rel="stylesheet" href="style.css">
+      </head>
+    <body>
+        
+        <!--テスト用-->
+        <b>テスト用ユーザ,pass=password</b>
+        <table border="1" id="a">
+            <tr>
+                <th>mail</th>
+                <th>type</tr>
+            </tr>
+            <tr>
+                <td>test1@testmail.com</td>
+                <td>0(一般)</td>
+            </tr>
+            <tr>
+                <td>test2@testmail.com</td>
+                <td>2(社員)</td>
+            </tr>
+            <tr>
+                <td>test3@testmail.com</td>
+                <td>3(taxi)</td>
+            </tr>
+        </table>
+        <!--テスト用ここまで-->
+        
+         <form method="POST" action="login.php">
+            <p>ログイン</p>
+            <o>ユーザ情報入力の上、loginボタンを押して下さい。</o>
+              <label for="email"></label>
+              <input type="email" id="email" name="email"  placeholder="email" required>
+              <br>
+              <label for="passowrd"></label>
+              <input type="password" id="password" name="password"  placeholder="password"required>
+              <br>
+              <input type="submit" value="login" >
+              <br>  
+             <li><a href="./register.html">新規会員登録はこちら</a>
+                    
+         </form>  
+         
+    </body>  
+</html>
